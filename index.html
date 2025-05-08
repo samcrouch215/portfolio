@@ -10,50 +10,93 @@
 </head>
 <body>
 <div class="container">
-<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-<a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-<i class="bi bi-bootstrap" style="font-size: 2rem; color: cornflowerblue;"></i>
-<span class="fs-4">&nbsp;Three Medium Wave</span>
-</a>
-<ul class="nav nav-pills">
-<li class="nav-item">
-<a href="#" class="nav-link active" aria-current="page">Home</a>
-</li>
-<li class="nav-item">
-<a href="#" class="nav-link">Features</a>
-</li>
-<li class="nav-item">
-<a href="#" class="nav-link">Pricing</a>
-</li>
-<li class="nav-item">
-<a href="#" class="nav-link">FAQs</a>
-</li>
-<li class="nav-item">
-<a href="#" class="nav-link">About</a>
-</li>
+<div class="row">
+<div class="col-lg-6 mx-auto">
+<h3 class="text-center">How Can We Help You</h3>
+<div class="accordion" id="accordionExample">
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+I'm new here
+</button>
+</h2>
+<div id="collapseOne" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<div class="card card-body">
+<h3 class="card-title">Welcome to St. Austin! We're happy you're here.</h3>
+<hr>
+<ul>
+<li><a href="#">Click here to register as a parishioner</a></li>
+<li><a href="#">Click here to learn more about our parish</a></li>
+<li><a href="#">Click here to view a list of our ministries</a></li>
+<li><a href="#">Click here to see our upcoming events</a></li>
+</ul>
+</div> <!-- closes card card body -->
+</div> <!-- closes accordion body -->
+</div> <!-- closes collapse one -->
+</div> <!-- closes accordion item -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+I need help
+</button>
+</h2>
+<div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<div class="card card-body">
+<h3 class="card-title">We're here to support you.</h3>
+<hr>
+<div class="d-flex justify-contents-center">
+<button class="btn btn-primary mx-1">Get Help</button>
+<button class="btn btn-primary mx-1">Consigue Ayuda</button>
+<button class="btn btn-primary mx-1">Contact a Spiritual Director</button>
+
+</div>
+</div> <!-- closes card card body -->
+</div><!-- closes accordion body -->
+</div><!-- closes collapse two -->
+</div><!-- closes accordion item -->
+<div class="accordion-item">
+<h2 class="accordion-header">
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+I want to schedule a baptism, wedding, or other sacrament
+</button>
+</h2>
+<div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+<div class="accordion-body">
+<div class="card card-body">
+<h3 class="card-title">Click each link to learn more.</h3>
+<hr>
+<ul class="list-unstyled">
+<li><a href="#">Baptism</a></li>
+<li><a href="#">First Communion</a></li>
+<li><a href="#">Teen Confirmation</a></li>
+<li><a href="#">Becoming Catholic / Adult Connfirmation (OCIA)</a></li>
+<li><a href="#">Weddings</a></li>
 
 </ul>
-</header>
-</div>
-<div class="px-4 pt-5 my-5 text-center border-bottom">
-<h1 class="display-4 fw-bold text-body-emphasis">Centered screenshot</h1>
-<div class="col-lg-6 mx-auto">
-<p class="lead mb-4">
-This is a web site for you to read and peruse. Please forgive the simplicity because I am learning web development. This text is intended to soothe and create visual stimulus. I use bootstrap for my web development because I believe Bootstrap is a web standard.
-</p>
-<div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-<button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
-<button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-</div>
 
-</div>
-<div class="overflow-hidden" style="max-height: 30vh;"></div>
-<div class="container px-5">
-<img src="imgs/bscreen.webp" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+</div> <!-- closes card card body -->
+</div><!-- closes accordion body -->
+</div><!-- closes collapse two -->
+</div><!-- closes accordion item -->
 
-</div>
-</div>
 
+</div> <!-- closes accordion -->
+
+<div class="dropdown mt-3" data-bs-theme="light">
+<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
+Default dropdown
+</button>
+<ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
+<li><a class="dropdown-item active" href="#">Action</a></li>
+<li><a class="dropdown-item" href="#">Action</a></li>
+<li><a class="dropdown-item" href="#">Another Action</a></li>
+<li><a class="dropdown-item" href="#">Something else here</a></li>
+<li><hr class="dropdown-divider"></li>
+<li><a class="dropdown-item" href="#">Separated link</a></li>
+</ul>
+</div></div></div>
 <script src="js/bootstrap.bundle.js"></script>
 </body>
 
