@@ -6,39 +6,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
-<title>Portfolio</title>
+<title>About me</title>
 </head>
 <body>
+<header></header>
 <main>
-<div class="px-4 py-5 my-5 text-center">
-<i class="bi bi-bootstrap" style="font-size: 5rem;"></i>
-<h1 class="display-5 fw-bold text-body-emphasis">My portfolio</h1>
-<div class="col-lg-6 mx-auto">
-<p class="lead mb-4">Here is some filler text about my web site. Not too much as to be wordy but not so scant an effort that there's nothing much said. Well either way nothing much is said in filler text but it won't look good if it's like just three words.</p>
-<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-<button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>
-<button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
-
+<div class="container row col-md-4">
+<div class="card mt-3 ms-3 shadow">
+<img class="card-img-top" src="imgs/flagnme.webp" alt="Photo of the author">
+<div class="card-body">
+<h3 class="card-title">Samuel Crouch</h3>
+<h5 class="card-subtitle mb-3">University of Texas at Austin</h5>
+<ul class="list-group list-group-flush">
+<li class="list-group-item">Attention to detail</li>
+<li class="list-group-item">Time management</li>
+<li class="list-group-item">Organization</li>
+</ul>
 </div>
 </div>
 </div>
 </main>
-<div class="d-flex justify-content-around mb-3">
-<div class="p-2 border my-3 shadow btn btn-primary" style="background-color: pink;">Flex item 1</div>
-<div class="p-2 border my-3 shadow btn btn-success" style="background-color: pink;">Flex item 2</div>
-<div class="p-2 border my-3 shadow btn btn-info" style="background-color: pink;">Flex item 3</div>
-</div>
-<div class="container row col-lg-4 mx-auto">
-<div class="card card-body">
- This is some text within a card body.
-</div></div>
+<footer></footer>
 
-<button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="Popover title" data-bs-content="And here’s some amazing content. It’s very engaging. Right?">Click to toggle popover</button>
 <script src="js/bootstrap.bundle.js"></script>
-<script>
-const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
-const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
-</script>
 </body>
 
 
