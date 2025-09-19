@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samuelito's Portfolio</title>
+<style>
+.done {
+color: darkseagreen;
+text-decoration: line-through solid black 2px;
+}
+</style>
+
+</head>
+
+<body>
+<p>Instructions for life;</p>
+
+<ul>
+<li>Eat</li>
+<li>Sleep</li>
+<li>Repeat</li>
+</ul>
+<ul style="border: 4mm ridge rgb(211 220 50 / 0.6);">
+<li>September</li>
+<li>October</li>
+<li>November</li>
+<li>December</li>
+<li>January</li>
+
+</ul>
+
+<h1>Web Developer Curriculum</h1>
+<p>So I need to get a curriculum and to stick to it</p>
+<ul>
+<li>vim</li>
+<li>git</li>
+<li>linux</li>
+<li>apache</li>
+<li>mysql</li>
+<li>python</li>
+<li>html</li>
+<li>css</li>
+<li>javascript</li>
+</ul>
+<h4>Mit courses</h4>
+<ul>
+<li>Calculus</li>
+<li>Physics I</li>
+<li>Software Design</li>
+
+</ul>
+<p>So way back in 2002 my life got derailed. I won't go in to specifics but it relates to my domain name. So to get back on track I'm picking up where I left off. I think I would of become a electrical engineer. So this is what I am aiming for.</p>
+<script>
+const listItems = document.querySelectorAll("li");
+
+function toggleDone(e) {
+    if (!e.target.className){
+    e.target.className= "done";
+} else {
+    e.target.className = "";
+}
+}
+listItems.forEach((item) => {
+    item.addEventListener("click", toggleDone);
+});
+</script>
+</body>
+
+</html>
